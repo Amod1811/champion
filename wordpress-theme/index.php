@@ -338,7 +338,8 @@
                 </h3>
                 <p class="text-gray-600 text-center mb-8">📝 Fill in to Reserve Your Spot:</p>
                 
-                <?php echo do_shortcode('[contact-form-7 id="1" title="Registration Form"]'); ?>
+               <?php include 'custom-whatsapp-form.php'; ?>
+
                 
                 <p class="text-sm text-gray-600 text-center mt-6">
                     📩 Confirmation & Access Link will be sent via WhatsApp & Email.
