@@ -48,7 +48,7 @@ WhatsApp: ${phone}%0A
 Reason: ${reason}%0A
 %0A✅ Please confirm the registration.`;
 
-    const whatsappNumber = "918806852629"; // Replace with your WhatsApp number (with country code)
+    const whatsappNumber = "918806852629"; // Replace with your WhatsApp number use 91(with country code)
     const url = `https://wa.me/${whatsappNumber}?text=${message}`;
 
     window.open(url, '_blank');
