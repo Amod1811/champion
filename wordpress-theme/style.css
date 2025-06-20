@@ -1,0 +1,46 @@
+/*
+Theme Name: Champions Mindset Blueprint
+Description: A modern, conversion-optimized landing page theme for masterclass registration
+Version: 1.0
+Author: Champions Mindset Team
+*/
+
+/* Tailwind CSS - Include via CDN or build process */
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/base.min.css');
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/components.min.css');
+@import url('https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/utilities.min.css');
+
+/* Custom animations */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .5; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom gradient backgrounds */
+.gradient-bg-1 {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 50%, #1e3a8a 100%);
+}
+
+.gradient-bg-2 {
+  background: linear-gradient(135deg, #f97316 0%, #dc2626 100%);
+}
+
+/* Smooth transitions */
+* {
+  transition: all 0.3s ease;
+}
+
+/* Custom button hover effects */
+.btn-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Modal backdrop */
+.modal-backdrop {
+  backdrop-filter: blur(4px);
+}
